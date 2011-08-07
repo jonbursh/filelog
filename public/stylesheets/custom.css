@@ -1,0 +1,118 @@
+.container {
+  /*Blueprint grid = 40px and 10px padding, except the right 
+   * column does not need padding so 20*40-10 = 790 */ 
+  width: 790px;
+}
+
+body {
+  /* brown background */
+  background: #600020;
+}
+
+header {
+  padding-top: 20px;
+}
+
+header img {
+  padding: 1em;
+  background: #fff;
+}
+
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+/* Links */
+
+a {
+  color: #600020;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #600020;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #600020;
+}
+
+/* Navigation */
+
+nav {
+  float: right;
+}
+
+nav {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #600020;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Create button */
+
+a.create_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 190px;
+  color: #fff;
+  background: #A52A2A;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* Round corners */
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+  width: 790px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer nav overrides nav which is pushed to right*/
+footer nav {
+  float: none;
+}
